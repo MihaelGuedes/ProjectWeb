@@ -1,0 +1,42 @@
+discos vendidos
+quantidade de musicas por albuns
+
+fazendo uma média
+
+1Ravi = quant de discos / quant musicas
+2Rodirigo = quant de musicas / quant discos
+
+dados corrompidos = valor n numericos p/ ambas as quant (desconsiderar)
+usar função = isnumeric
+
+
+input
+1 quant de albuns A
+
+2 todas as informações de ravi
+discos
+musicas
+
+3 todas de rodrigo
+musicas
+discos
+
+alternada fica
+
+ravi discos
+rodrigo musicas
+ravi musicas
+rodrigo discos
+
+SAÍDA
+media discos
+media musicas
+:.2f
+
+se discos == 0:
+0.00 musicas
+0.00 discos
+
+se todos os discos estiverem com erro
+print(0.00 para os dois)
+
